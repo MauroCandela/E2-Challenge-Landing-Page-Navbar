@@ -125,6 +125,9 @@ body {
   .main {
     flex-wrap: wrap;
   }
+  .sobre-mi p{
+    font-size:15px ;
+  }
 }
 
 .main {
@@ -142,26 +145,25 @@ body {
   text-align: center;
 }
 
-.info-content h1{
+.info-content h1 {
   color: #fff;
   font-size: 50px;
 }
 
-.info-content h1 span{
+.info-content h1 span {
   color: aqua;
   text-decoration: underline;
 }
-.info-content p{
+.info-content p {
   color: #fff;
   margin-top: 30px;
   font-size: 30px;
-
 }
 .info-content .imagen {
   display: flex;
 }
 
-.descargar-cv{
+.descargar-cv {
   padding: 15px 25px;
   border: none;
   border-radius: 20px;
@@ -169,7 +171,7 @@ body {
   cursor: pointer;
 }
 
-.sobre-mi{
+.sobre-mi {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -178,8 +180,10 @@ body {
 }
 
 .sobre-mi p {
+  height: 100%;
   font-size: 30px;
   padding: 35px;
   text-align: center;
+  justify-content: center;
   color: #fff;
 }
