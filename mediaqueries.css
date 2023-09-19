@@ -72,9 +72,6 @@
     text-align: center;
   }
 
-  .titulo_tecnologias{
-    margin-top: 185px;
-  }
   .cont{
     display: flex;
     flex-direction: column;
@@ -90,7 +87,7 @@
   .info-content{
     min-width: 250px;
     width: auto;
-    height: 350px;
+    height: auto;
     justify-content: center;
   }
   .info-content h1{
@@ -111,12 +108,14 @@
   .imagen img{
     width: 330px;
     height: 380px;
-    margin-top: 140px;
   }
+  .tecnologias{
+    height: auto;
+  }
+  
   .titulo_tecnologias{
-    margin-top: 850px;
+    font-size: 50px;
   }
-  .portfolio{
-    margin-top: 660px;
-  }
+  
+
 }
