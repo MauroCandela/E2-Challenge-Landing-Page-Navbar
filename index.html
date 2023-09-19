@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
     <title>Mi portafolio</title>
   </head>
   <body>
@@ -21,11 +22,11 @@
         <img src="Imagenes/Logo.png" alt="" class="logo" />
       </a>
       <ul class="lista">
-        <li class="item"><a href="#">Inicio</a></li>
-        <li class="item"><a href="#">Sobre mi</a></li>
-        <li class="item"><a href="#">Tecnologias</a></li>
-        <li class="item"><a href="#">Proyectos</a></li>
-        <li class="item"><a href="#">Redes</a></li>
+        <li class="item"><a href="index.html">Inicio</a></li>
+        <li class="item"><a href="#sobre-mi">Sobre mi</a></li>
+        <li class="item"><a href="#titulo_tecnologias">Tecnologias</a></li>
+        <li class="item"><a href="#proyectos">Portafolio</a></li>
+        <li class="item"><a href="#redes">Redes</a></li>
       </ul>
     </nav>
     <main class="main">
@@ -45,7 +46,9 @@
         <img src="Imagenes/Mauro.png" alt="Mauro foto" />
       </div>
     </main>
+    <div id="sobre-mi"></div>
     <div class="sobre-mi">
+      <h2 class="titulo_sobremi">Sobre Mi</h2>
       <p>
         Lo que más me entusiasma de mi trabajo es la oportunidad de crear
         experiencias únicas. Desde el primer código hasta el último detalle de
@@ -58,5 +61,159 @@
         este campo en constante cambio.
       </p>
     </div>
+    <div class="tecnologias" id="titulo_tecnologias">
+      <h2 class="titulo_tecnologias">Tecnologias</h2>
+      <div class="tecnologias_cajas">
+        <div class="caja_tecnologias">
+          <h3>HTML</h3>
+          <img src="Imagenes/IconosCajas/html-5.png" alt="Icono de HTML" />
+        </div>
+        <div class="caja_tecnologias">
+          <h3>CSS</h3>
+          <img src="Imagenes/IconosCajas/css-3.png" alt="Icono de CSS" />
+        </div>
+        <div class="caja_tecnologias">
+          <h3>JAVASCRIPT</h3>
+          <img src="Imagenes/IconosCajas/js.png" alt="Icono de JAVASCRIPT" />
+        </div>
+        <div class="caja_tecnologias">
+          <h3>GIT</h3>
+          <img src="Imagenes/IconosCajas/git.png" alt="Icono de GIT" />
+        </div>
+        <div class="caja_tecnologias">
+          <h3>GITHUB</h3>
+          <img src="Imagenes/IconosCajas/github.png" alt="Icono de GITHUB" />
+        </div>
+        <div class="caja_tecnologias">
+          <h3>VERCEL</h3>
+          <img src="Imagenes/IconosCajas/vercel.png" alt="Icono de VERCEL" />
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio" id="proyectos">
+      <div class="portfolio-headings">
+        <h2>Mi Portafolio</h2>
+      </div>
+      <div class="container">
+        <div class="card">
+          <div class="card__img">
+            <img src="Imagenes/Proyecto1.PNG" alt="Foto proyecto 1" />
+          </div>
+          <div class="card__title">
+            <h2>Practica CSS</h2>
+          </div>
+          <div class="projects-links">
+            <a
+              href="https://github.com/MauroCandela/Practica-CSS-.git"
+              target="_blank"
+            >
+              <img src="Imagenes/github.png" alt="Github" />
+            </a>
+            <a href="https://practica-css-eta.vercel.app/" target="_blank">
+              <img src="imagenes/tierra-con-americas.png" alt="Globo america" />
+            </a>
+            <a href="#" target="_blank">
+              <img src="Imagenes/codificacion.png" alt="Coding" />
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__img">
+            <img src="Imagenes/Proyecto2.PNG" alt="Foto proyecto 2" />
+          </div>
+          <div class="card__title">
+            <h2>Practica</h2>
+          </div>
+          <div class="projects-links">
+            <a
+              href="https://github.com/MauroCandela/Practica.git"
+              target="_blank"
+            >
+              <img src="imagenes/github.png" alt="Github" />
+            </a>
+            <a href="https://practica-omega.vercel.app/" target="_blank">
+              <img src="imagenes/tierra-con-americas.png" alt="Globo america" />
+            </a>
+            <a href="#" target="_blank">
+              <img src="imagenes/codificacion.png" alt="Coding" />
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__img">
+            <img src="imagenes/Proyecto3.PNG" alt="Foto proyecto 3" />
+          </div>
+          <div class="card__title">
+            <h2>Landing Bar</h2>
+          </div>
+          <div class="projects-links">
+            <a
+              href="https://github.com/MauroCandela/E2-Challenge-Landing-Page-Navbar.git"
+              target="_blank"
+            >
+              <img src="imagenes/github.png" alt="Github" />
+            </a>
+            <a
+              href="https://e2-challenge-landing-page-navbar-lilac.vercel.app/"
+              target="_blank"
+            >
+              <img src="imagenes/tierra-con-americas.png" alt="Globo america" />
+            </a>
+            <a href="#" target="_blank">
+              <img src="imagenes/codificacion.png" alt="Coding" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer" id="redes">
+      <div class="cont">
+        <div class="box_logo">
+          <a href="#"
+            ><img
+              class="logo"
+              src="Imagenes/Logo_fullstack.png"
+              alt="Logo de Fullstack"
+          /></a>
+        </div>
+        <div class="box_csh">
+          <h2>Como se hizo</h2>
+          <p>
+            Esta pagina web se hizo utilizando las tecnologias de HTML y CSS. Se
+            implementaron las mediaqueries para hacer responsive su contenido.
+          </p>
+        </div>
+        <div class="box_redes">
+          <h2>Redes Sociales</h2>
+          <div class="red-social">
+            <a href="#" class="instagram"
+              ><img
+                src="Imagenes/Iconos_Footer/instagram.png"
+                alt="Icono de Instagram"
+            /></a>
+            <a href="#" class="facebook"
+              ><img
+                src="Imagenes/Iconos_Footer/facebook.png"
+                alt="Icono de Facebook"
+            /></a>
+            <a href="#" class="whatsapp"
+              ><img
+                src="Imagenes/Iconos_Footer/whatsapp.png"
+                alt="Icono de Whatsapp"
+            /></a>
+            <a href="#" class="twitter"
+              ><img
+                src="Imagenes/Iconos_Footer/gorjeo.png"
+                alt="Icono de Twitter"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="final">
+        <span>Hecho con ♥ por MC </span>
+      </div>
+    </footer>
   </body>
 </html>

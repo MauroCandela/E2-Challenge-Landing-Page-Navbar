@@ -1,0 +1,122 @@
+@media (max-width: 1024px) {
+  .enlace {
+    padding-left: 20px;
+  }
+  .item a {
+    font-size: 24px;
+    font-weight: 550;
+  }
+  .main {
+    width: 100vw;
+    margin: 105px 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sobre-mi {
+    width: 100%;
+    margin-top: 210px;
+    display: flex;
+    justify-content: center;
+  }
+  .portfolio .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 800px) {
+  .checkbtn img {
+    display: block;
+  }
+  .lista {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background: rgb(179, 145, 187);
+    font-size: larger;
+    font-weight: 700;
+    top: 100px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  .item {
+    display: block;
+    margin: 0;
+    line-height: 50px;
+    justify-content: center;
+    align-items: top;
+    border-bottom: 2px solid rgb(2, 2, 2);
+  }
+  .item a {
+    font-size: 20px;
+  }
+  .item:hover {
+    background-color: rgba(17, 17, 17, 0.411);
+    color: #fff;
+  }
+  .item a:hover,
+  .item a.active {
+    background: none;
+    color: #fff;
+  }
+
+  #check:checked ~ .lista {
+    left: 0;
+  }
+
+  .info-content {
+    min-width: 400px;
+    max-width: 600px;
+    margin: 40px;
+    text-align: center;
+  }
+
+  .titulo_tecnologias{
+    margin-top: 185px;
+  }
+  .cont{
+    display: flex;
+    flex-direction: column;
+  }
+  .box_csh{
+    display: none;
+  }
+}
+
+
+@media (max-width: 500px){
+
+  .info-content{
+    min-width: 250px;
+    width: auto;
+    height: 350px;
+    justify-content: center;
+  }
+  .info-content h1{
+      font-size: 40px;
+      width: 335px;
+  }
+  .info-content p{
+    width: 320px;
+    font-size: 25px;
+    padding: 15px;
+    justify-content: center;
+  }
+
+  .imagen{
+    height: auto;
+    width: auto;
+  }
+  .imagen img{
+    width: 330px;
+    height: 380px;
+    margin-top: 140px;
+  }
+  .titulo_tecnologias{
+    margin-top: 850px;
+  }
+  .portfolio{
+    margin-top: 660px;
+  }
+}
